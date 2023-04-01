@@ -16,7 +16,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r IceMinecraftTheme
-    git clone https://github.com/uTheusBanido/season-theme.git
+    git clone https://github.com/uTheusBanido/IceMinecraftTheme.git
     cd IceMinecraftTheme
     rm /var/www/pterodactyl/resources/scripts/IceMinecraftTheme.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -52,7 +52,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/uTheusBanido/season-theme/main/install.sh)
+    bash <(curl https://raw.githubusercontent.com/uTheusBanido/IceMinecraftTheme/main/install.sh)
 }
 
 restoreBackUp(){
